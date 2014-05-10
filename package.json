@@ -1,5 +1,5 @@
 {
-  "name": "_error",
+  "name": "error-plus",
   "version": "0.0.1",
   "description": "Simple extension to standard Node.js Error object that allows you to pass an addition object to the constructor whose keys will be added to the Error object.",
   "main": "_error.js",
@@ -13,7 +13,8 @@
   "keywords": [
     "error",
     "wrap",
-    "wrapper"
+    "wrapper",
+    "plus"
   ],
   "author": "Luke Bond <luke.n.bond@gmail.com>",
   "license": "MIT",

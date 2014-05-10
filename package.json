@@ -1,0 +1,27 @@
+{
+  "name": "_error",
+  "version": "0.0.1",
+  "description": "Simple extension to standard Node.js Error object that allows you to pass an addition object to the constructor whose keys will be added to the Error object.",
+  "main": "_error.js",
+  "scripts": {
+    "test": "node test/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lukebond/_error"
+  },
+  "keywords": [
+    "error",
+    "wrap",
+    "wrapper"
+  ],
+  "author": "Luke Bond <luke.n.bond@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukebond/_error/issues"
+  },
+  "homepage": "https://github.com/lukebond/_error",
+  "devDependencies": {
+    "specify": "^1.2.1"
+  }
+}

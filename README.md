@@ -15,7 +15,8 @@ return callback(err);
 
 Now you can now do this:
 ```
-return callback(new Error('Something bad happened', {statusCode: 400, pertinentInformation: 'something'}));
+var _Error = require('error-plus');
+return callback(new _Error('Something bad happened', {statusCode: 400, pertinentInformation: 'something'}));
 ```
 
 That's all there is to it.
